@@ -48,7 +48,16 @@ const HomeSection = () => {
                   </HeaderFour>
                   <BtnWrapper>
                     <Btn>
-                      <BtnLink to="contact">Contact Me</BtnLink>
+                      <BtnLink
+                        offset={-50}
+                        to="contact"
+                        smooth={true}
+                        duration={500}
+                        spy={true}
+                        exact="true"
+                      >
+                        Contact Me
+                      </BtnLink>
                     </Btn>
                     <DlButton>
                       <DlLink

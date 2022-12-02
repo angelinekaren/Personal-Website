@@ -19,7 +19,7 @@ import { UilLine, UilEnvelope, UilInstagram } from "@iconscout/react-unicons";
 const ContactSection = () => {
   return (
     <>
-      <Section>
+      <Section id="contact">
         <Container>
           <HeadingWrapper>
             <HeadingLine />
