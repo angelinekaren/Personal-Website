@@ -116,6 +116,7 @@ export const BtnLink = styled(LinkS)`
   border-radius: 20px;
   color: white;
   font-size: 12px;
+  cursor: pointer;
   font-weight: bold;
   width: 100%;
   text-align: center;
@@ -139,6 +140,7 @@ export const DlLink = styled.a`
   color: black;
   font-size: 12px;
   font-weight: bold;
+  cursor: pointer;
   text-decoration: none;
   width: 100%;
   text-align: center;
