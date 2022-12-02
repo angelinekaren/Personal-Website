@@ -51,7 +51,10 @@ const HomeSection = () => {
                       <BtnLink to="contact">Contact Me</BtnLink>
                     </Btn>
                     <DlButton>
-                      <DlLink href="trial.pdf" download="cv.pdf">
+                      <DlLink
+                        href="Angeline Karen CV.pdf"
+                        download="Angeline Karen CV.pdf"
+                      >
                         Download CV
                       </DlLink>
                     </DlButton>

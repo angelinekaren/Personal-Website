@@ -98,18 +98,9 @@ const Navbar = () => {
                 <NavItem>
                   <NavLink to="/">Home</NavLink>
                 </NavItem>
-                {/* <NavItem>
-                  <NavLink to="about">About</NavLink>
-                </NavItem>
-                <NavItem>
-                  <NavLink to="skills">Skills</NavLink>
-                </NavItem> */}
                 <NavItem>
                   <NavLink to="/portfolio">Portfolio</NavLink>
                 </NavItem>
-                {/* <NavItem>
-                  <NavLink to="contact">Contact</NavLink>
-                </NavItem> */}
               </NavMenu>
             </>
           )}
@@ -136,70 +127,16 @@ const Navbar = () => {
         )}
         <SidebarMenu>
           <SidebarItem>
-            <SidebarLink
-              onClick={() => setSidebar(false)}
-              offset={-50}
-              to="/"
-              smooth={true}
-              duration={500}
-              spy={true}
-              exact="true"
-            >
+            <SidebarLink onClick={() => setSidebar(false)} to="/">
               Home
             </SidebarLink>
           </SidebarItem>
-          {/* <SidebarItem>
-            <SidebarLink
-              onClick={() => setSidebar(false)}
-              offset={-50}
-              to="about"
-              smooth={true}
-              duration={500}
-              spy={true}
-              exact="true"
-            >
-              About
-            </SidebarLink>
-          </SidebarItem> */}
-          {/* <SidebarItem>
-            <SidebarLink
-              onClick={() => setSidebar(false)}
-              offset={-50}
-              to="skills"
-              smooth={true}
-              duration={500}
-              spy={true}
-              exact="true"
-            >
-              Skills
-            </SidebarLink>
-          </SidebarItem> */}
+
           <SidebarItem>
-            <SidebarLink
-              onClick={() => setSidebar(false)}
-              offset={-50}
-              to="/portfolio"
-              smooth={true}
-              duration={500}
-              spy={true}
-              exact="true"
-            >
+            <SidebarLink onClick={() => setSidebar(false)} to="/portfolio">
               Portfolio
             </SidebarLink>
           </SidebarItem>
-          {/* <SidebarItem>
-            <SidebarLink
-              onClick={() => setSidebar(false)}
-              offset={-50}
-              to="contact"
-              smooth={true}
-              duration={500}
-              spy={true}
-              exact="true"
-            >
-              Contact
-            </SidebarLink>
-          </SidebarItem> */}
         </SidebarMenu>
       </div>
     </>

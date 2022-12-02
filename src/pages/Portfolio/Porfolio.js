@@ -25,6 +25,7 @@ import focusplanner from "../../images/focusplanner.jpg";
 import publishedpaper from "../../images/publishedpaper.jpg";
 import clarifact from "../../images/clarifact.jpg";
 import veriflare from "../../images/veriflare.jpg";
+import py_to_c from "../../images/py_to_c.png";
 
 import {
   UilGithub,
@@ -359,6 +360,51 @@ const Portfolio = () => {
                       }}
                     />
                     Web
+                  </BtnLink>
+                </Btn>
+              </BtnWrapper>
+            </CardItem>
+
+            {/* interpreter */}
+            <CardItem>
+              <CardImage>
+                <img
+                  src={py_to_c}
+                  alt="interpreter pic"
+                  width="260px"
+                  height="100px"
+                />
+              </CardImage>
+              <CardTitle>Python to C++ Interpreter</CardTitle>
+              <SubtitleWrapper>
+                <CardIcon>
+                  <GroupIcon
+                    style={{
+                      width: "13px",
+                      height: "13px",
+                      marginRight: "4px",
+                      color: "#111930",
+                    }}
+                  />
+                </CardIcon>
+                <CardSubs>Group project</CardSubs>
+              </SubtitleWrapper>
+
+              <CardSubtitle>
+                A project for Compilation Technique course to implement
+                interpreter and translation from Python to C++ language
+              </CardSubtitle>
+
+              <BtnWrapper>
+                <Btn>
+                  <BtnLink href="https://github.com/VaniaNatalie/CompTechFinal">
+                    <UilGithub
+                      style={{
+                        width: "17px",
+                        height: "17px",
+                      }}
+                    />
+                    Github
                   </BtnLink>
                 </Btn>
               </BtnWrapper>
